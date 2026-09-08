@@ -1,0 +1,159 @@
+/* --------------------------
+   Google Font
+---------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+html, body, [class*="css"]{
+    font-family:'Poppins',sans-serif;
+}
+
+/* --------------------------
+   Main
+---------------------------*/
+
+.block-container{
+    padding-top:2rem;
+    padding-bottom:2rem;
+    max-width:1200px;
+}
+
+/* --------------------------
+   Headers
+---------------------------*/
+
+h1{
+    color:#2563EB;
+    font-weight:700;
+}
+
+h2{
+    color:#1E40AF;
+}
+
+h3{
+    color:#2563EB;
+}
+
+/* --------------------------
+   Sidebar
+---------------------------*/
+
+section[data-testid="stSidebar"]{
+    background:#0F172A;
+}
+
+section[data-testid="stSidebar"] *{
+    color:white;
+}
+
+/* --------------------------
+   Buttons
+---------------------------*/
+
+.stButton>button{
+
+    width:100%;
+
+    border-radius:10px;
+
+    border:none;
+
+    background:#2563EB;
+
+    color:white;
+
+    height:48px;
+
+    font-weight:600;
+
+    transition:0.3s;
+}
+
+.stButton>button:hover{
+
+    background:#1D4ED8;
+
+    transform:scale(1.02);
+}
+
+/* --------------------------
+   Download Button
+---------------------------*/
+
+.stDownloadButton>button{
+
+    width:100%;
+
+    background:#059669;
+
+    color:white;
+
+    border-radius:10px;
+
+    border:none;
+
+    height:48px;
+}
+
+/* --------------------------
+   Text Area
+---------------------------*/
+
+textarea{
+
+    border-radius:10px !important;
+
+}
+
+/* --------------------------
+   File Uploader
+---------------------------*/
+
+[data-testid="stFileUploader"]{
+
+    border:2px dashed #2563EB;
+
+    border-radius:12px;
+
+    padding:10px;
+
+}
+
+/* --------------------------
+   Metric
+---------------------------*/
+
+[data-testid="metric-container"]{
+
+    border-radius:12px;
+
+    border:1px solid #E5E7EB;
+
+    padding:15px;
+
+    background:white;
+
+    box-shadow:0 3px 10px rgba(0,0,0,.05);
+
+}
+
+/* --------------------------
+   Expander
+---------------------------*/
+
+.streamlit-expanderHeader{
+
+    font-weight:600;
+
+}
+
+/* --------------------------
+   Footer
+---------------------------*/
+
+footer{
+
+    visibility:hidden;
+
+}

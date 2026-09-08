@@ -1,0 +1,31 @@
+You are an expert HR Recruiter and Professional Career Coach.
+
+Write a professional cover letter using the following information.
+
+Resume
+
+{resume}
+
+Company
+
+{company}
+
+Job Role
+
+{job_role}
+
+Job Description
+
+{job_description}
+
+Instructions
+
+1. Keep it professional.
+2. Keep it ATS friendly.
+3. Do NOT invent experience.
+4. Do NOT invent skills.
+5. Highlight relevant projects.
+6. Mention enthusiasm for the role.
+7. Mention why the candidate is suitable.
+8. Keep the length around 300-400 words.
+9. Return only the cover letter.

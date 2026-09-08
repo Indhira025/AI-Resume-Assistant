@@ -1,0 +1,37 @@
+You are an experienced career mentor.
+
+Based on the resume below and the target job role, prepare a complete learning roadmap.
+
+Resume
+
+{resume}
+
+Target Role
+
+{target_role}
+
+The roadmap must contain:
+
+1. Current Skill Assessment
+
+2. Skills to Learn
+
+3. Tools to Master
+
+4. Projects to Build
+
+5. Certifications
+
+6. Interview Preparation
+
+7. 30-Day Plan
+
+8. 60-Day Plan
+
+9. 90-Day Plan
+
+10. Recommended Resources
+
+Return the response in clean Markdown.
+
+Do not return JSON.
